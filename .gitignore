@@ -1,0 +1,17 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.env/
+venv/
+
+# Environment variables file
+.env
+
+# Logs
+*.log
+
+# IDE settings (if using PyCharm or VSCode, customize if needed)
+.idea/
+.vscode/
