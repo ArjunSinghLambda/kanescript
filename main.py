@@ -76,7 +76,7 @@ def stop_test(test_id):
     headers = {'accept': 'application/json', 'authorization': f'Basic {BASIC_AUTH}'}
 
     response = requests.delete(url, headers=headers)
-    if response.status_code == 204:
+    if response.status_code == 200:
         logging.info(f"Test ID {test_id} stopped successfully.")
     else:
         logging.error(f"Failed to stop Test ID {test_id}. Status code: {response.status_code}")
