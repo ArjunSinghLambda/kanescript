@@ -14,7 +14,7 @@ jobs:
 
     strategy:
       matrix:
-        python-version: [3.12.6] # You can add multiple versions if needed.
+        python-version: [3.12.6]
 
     steps:
       - name: Checkout code
